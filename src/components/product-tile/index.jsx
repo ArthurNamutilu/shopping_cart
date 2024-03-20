@@ -28,6 +28,7 @@ function ProductTile({ product }) {
           <h1 className="w-40 truncate mt-3 text-gray-700 font-bold text-lg">
             {product.title}
           </h1>
+          <p className="text-gray-700 font-extrabold">${product.price}</p>
         </div>
         <div className="flex items-center justify-center w-full mt-5">
           <button
